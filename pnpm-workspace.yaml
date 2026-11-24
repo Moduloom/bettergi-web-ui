@@ -1,0 +1,6 @@
+packages:
+  - moduloom/frame
+  - moduloom/webui
+allowBuilds:
+  esbuild: true
+  '@tailwindcss/oxide': true

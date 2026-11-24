@@ -1,0 +1,3 @@
+[submodule "moduloom"]
+	path = moduloom
+	url = https://github.com/Moduloom/moduloom.git

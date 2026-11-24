@@ -1,0 +1,305 @@
+{
+  "lead": {
+    "key": "BgiEnabledHotkey",
+    "label": "启动停止 BetterGI",
+    "initial": "F11",
+    "global": true
+  },
+  "groups": [
+    {
+      "id": "system",
+      "label": "系统控制",
+      "entries": [
+        {
+          "key": "CancelTaskHotkey",
+          "label": "停止当前脚本/独立任务",
+          "initial": ""
+        },
+        {
+          "key": "SuspendHotkey",
+          "label": "暂停当前脚本/独立任务",
+          "initial": ""
+        },
+        {
+          "key": "TakeScreenshotHotkey",
+          "label": "游戏截图",
+          "initial": ""
+        },
+        {
+          "key": "LogBoxDisplayHotkey",
+          "label": "日志与状态窗口展示开关",
+          "initial": ""
+        },
+        {
+          "key": "OverlayMetricsDisplayHotkey",
+          "label": "遮罩指标栏展示开关",
+          "initial": ""
+        }
+      ]
+    },
+    {
+      "id": "timer",
+      "label": "实时任务",
+      "entries": [
+        {
+          "key": "AutoPickEnabledHotkey",
+          "label": "自动拾取开关",
+          "initial": ""
+        },
+        {
+          "key": "AutoSkipEnabledHotkey",
+          "label": "自动剧情开关",
+          "initial": ""
+        },
+        {
+          "key": "AutoSkipHangoutEnabledHotkey",
+          "label": "自动邀约开关",
+          "initial": ""
+        },
+        {
+          "key": "AutoFishingEnabledHotkey",
+          "label": "自动钓鱼开关",
+          "initial": ""
+        },
+        {
+          "key": "QuickTeleportEnabledHotkey",
+          "label": "快速传送开关",
+          "initial": ""
+        },
+        {
+          "key": "SkillCdEnabledHotkey",
+          "label": "冷却提示开关",
+          "initial": ""
+        },
+        {
+          "key": "QuickTeleportTickHotkey",
+          "label": "手动触发快速传送触发快捷键（按住起效）",
+          "initial": ""
+        },
+        {
+          "key": "MapMaskEnabledHotkey",
+          "label": "地图遮罩开关",
+          "initial": ""
+        }
+      ]
+    },
+    {
+      "id": "soloTask",
+      "label": "独立任务",
+      "entries": [
+        {
+          "key": "OnedragonHotkey",
+          "label": "启动/停止一条龙",
+          "initial": ""
+        },
+        {
+          "key": "AutoGeniusInvokationHotkey",
+          "label": "启动/停止自动七圣召唤",
+          "initial": ""
+        },
+        {
+          "key": "AutoWoodHotkey",
+          "label": "启动/停止自动伐木",
+          "initial": ""
+        },
+        {
+          "key": "AutoFightHotkey",
+          "label": "启动/停止自动战斗",
+          "initial": ""
+        },
+        {
+          "key": "AutoDomainHotkey",
+          "label": "启动/停止自动秘境",
+          "initial": ""
+        },
+        {
+          "key": "AutoMusicGameHotkey",
+          "label": "启动/停止自动音游",
+          "initial": ""
+        },
+        {
+          "key": "AutoFishingGameHotkey",
+          "label": "启动/停止自动钓鱼",
+          "initial": ""
+        },
+        {
+          "key": "AutoCookGameHotkey",
+          "label": "启动/停止自动烹饪",
+          "initial": ""
+        }
+      ]
+    },
+    {
+      "id": "macro",
+      "label": "操控辅助",
+      "entries": [
+        {
+          "key": "TurnAroundHotkey",
+          "label": "长按旋转视角 - 那维莱特转圈",
+          "initial": ""
+        },
+        {
+          "key": "EnhanceArtifactHotkey",
+          "label": "按下快速强化圣遗物",
+          "initial": ""
+        },
+        {
+          "key": "QuickBuyHotkey",
+          "label": "按下快速购买商店物品",
+          "initial": ""
+        },
+        {
+          "key": "OneKeyClaimRewardHotkey",
+          "label": "一键领取奖励",
+          "initial": ""
+        },
+        {
+          "key": "QuickSereniteaPotHotkey",
+          "label": "按下快速进出尘歌壶",
+          "initial": ""
+        },
+        {
+          "key": "ClickGenshinConfirmButtonHotkey",
+          "label": "快捷点击原神内确认按钮",
+          "initial": ""
+        },
+        {
+          "key": "ClickGenshinCancelButtonHotkey",
+          "label": "快捷点击原神内取消按钮",
+          "initial": ""
+        },
+        {
+          "key": "OneKeyFightHotkey",
+          "label": "一键战斗宏快捷键",
+          "initial": ""
+        }
+      ]
+    },
+    {
+      "id": "guide",
+      "label": "悬浮小窗",
+      "entries": [
+        {
+          "key": "GuideToggleHotkey",
+          "label": "显示/隐藏小窗",
+          "initial": "Down"
+        },
+        {
+          "key": "GuidePlayPauseHotkey",
+          "label": "播放/暂停",
+          "initial": "Up"
+        },
+        {
+          "key": "GuideSeekBackwardHotkey",
+          "label": "快退",
+          "initial": "Left"
+        },
+        {
+          "key": "GuideSeekForwardHotkey",
+          "label": "快进",
+          "initial": "Right"
+        },
+        {
+          "key": "GuideSpeedUpHotkey",
+          "label": "倍速增加",
+          "initial": "",
+          "global": true
+        },
+        {
+          "key": "GuideSpeedDownHotkey",
+          "label": "倍速降低",
+          "initial": "",
+          "global": true
+        },
+        {
+          "key": "GuideSpeedResetHotkey",
+          "label": "倍速重置为 1x",
+          "initial": "",
+          "global": true
+        },
+        {
+          "key": "GuideBoostHotkey",
+          "label": "按住临时加速",
+          "initial": "",
+          "monitorOnly": true
+        },
+        {
+          "key": "GuideOpacityUpHotkey",
+          "label": "不透明度增加",
+          "initial": "",
+          "global": true
+        },
+        {
+          "key": "GuideOpacityDownHotkey",
+          "label": "不透明度降低",
+          "initial": "",
+          "global": true
+        },
+        {
+          "key": "GuideClickThroughHotkey",
+          "label": "鼠标穿透开关",
+          "initial": "",
+          "global": true
+        },
+        {
+          "key": "GuideSubtitleHotkey",
+          "label": "字幕浮窗开关",
+          "initial": "",
+          "global": true
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "label": "开发者",
+      "entries": [
+        {
+          "key": "KeyMouseMacroRecordHotkey",
+          "label": "启动/停止键鼠录制",
+          "initial": ""
+        },
+        {
+          "key": "RecognitionTemplateEditorHotkey",
+          "label": "（开发）模板素材制作",
+          "initial": ""
+        },
+        {
+          "key": "RecBigMapPosHotkey",
+          "label": "（开发）获取当前大地图中心点位置",
+          "initial": ""
+        },
+        {
+          "key": "PathRecorderHotkey",
+          "label": "启动/停止路径记录器",
+          "initial": ""
+        },
+        {
+          "key": "AddWaypointHotkey",
+          "label": "添加路径点",
+          "initial": ""
+        }
+      ]
+    },
+    {
+      "id": "debug",
+      "label": "内部测试",
+      "entries": [
+        {
+          "key": "Test1Hotkey",
+          "label": "（测试）测试",
+          "initial": ""
+        },
+        {
+          "key": "Test2Hotkey",
+          "label": "（测试）测试2",
+          "initial": ""
+        },
+        {
+          "key": "ExecutePathHotkey",
+          "label": "（测试）播放内存中的路径",
+          "initial": ""
+        }
+      ]
+    }
+  ]
+}
