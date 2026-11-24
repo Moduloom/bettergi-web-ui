@@ -4,6 +4,7 @@ import {accentPresets, defaultThemes} from './src/styles/theme.ts';
 export default {
   name: 'BetterGI UI',
   outDir: 'dist/bettergi-ui',
+  base: process.env.BETTERGI_PREVIEW_BASE,
   storage: {namespace: 'bettergi-ui'},
   libraries: [{
     key: 'bettergi-ui',

@@ -29,6 +29,10 @@ import 'loom-frame/ui/styles.css';
 import '../styles/styles.css';
 import '../styles/window.css';
 
+const publicPreview = import.meta.env.VITE_BETTERGI_STATIC_PREVIEW === 'true';
+const systemAccentEndpoint = publicPreview ? undefined : runtimeUrl('bettergi-system', 'accent');
+const mapAssetsBase = publicPreview ? undefined : runtimeUrl('bettergi-system');
+
 const MarkdownView = lazy(() => import('../components/markdown').then(module => ({default: module.MarkdownView})));
 
 const languages = [
@@ -182,8 +186,8 @@ function Demo({entry, props, onPatch, onEvent, theme, scene = false}: RenderProp
   </>;
 
   switch (slug) {
-    case 'all': return <BetterGIApp accentEndpoint={runtimeUrl('bettergi-system', 'accent')}
-      mapAssetsBase={runtimeUrl('bettergi-system')}/>;
+    case 'all': return <BetterGIApp accentEndpoint={systemAccentEndpoint}
+      mapAssetsBase={mapAssetsBase}/>;
     case 'typography': return showcase(<Text variant={str('variant') as Parameters<typeof Text>[0]['variant']}>{label}</Text>);
     case 'link': return showcase(<Link href={str('href')}>{label}</Link>, 'compact');
     case 'image': return showcase(<Image src={bannerSource} alt="BetterGI 首页背景"
@@ -305,7 +309,7 @@ function Demo({entry, props, onPatch, onEvent, theme, scene = false}: RenderProp
       onMaximize={flag('compact') ? undefined : () => notify('窗口尺寸已切换')}><span>窗口内容</span></WindowFrame>,
       'roomy');
     case 'window': return <BetterGIApp title={label} selectedRoute={value} compactNavigation={flag('compact')}
-      accentEndpoint={runtimeUrl('bettergi-system', 'accent')}
+      accentEndpoint={systemAccentEndpoint}
       onRouteChange={send('value')} onCompactChange={send('compact')} scene={scene}/>;
     case 'tool-window': return showcase(<ToolPreview title={label} open={open} onChange={send('open')}/>, 'roomy');
     case 'markdown': return showcase(<Suspense fallback={null}>

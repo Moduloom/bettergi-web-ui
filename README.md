@@ -2,7 +2,7 @@
   <img src="src/assets/images/logo.png" width="88" alt="BetterGI Web UI 标志">
   <h1>BetterGI Web UI</h1>
   <p>BetterGI 的 React 组件库和应用界面预览。</p>
-  <p><a href="#启动预览">启动预览</a> &nbsp;&nbsp; <a href="https://github.com/babalae/better-genshin-impact">原版 BetterGI</a></p>
+  <p><a href="https://moduloom.github.io/bettergi-web-ui/#bettergi-ui%3Aall">在线体验</a> &nbsp;&nbsp; <a href="#启动预览">启动预览</a> &nbsp;&nbsp; <a href="https://github.com/babalae/better-genshin-impact">原版 BetterGI</a></p>
 </div>
 
 ## 能预览什么
