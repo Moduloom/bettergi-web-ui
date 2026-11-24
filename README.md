@@ -9,8 +9,8 @@
 需要 Node.js 22.18+ 和 pnpm 11。
 
 ~~~sh
-git clone --recurse-submodules https://github.com/Moduloom/bettergi-ui.git
-cd bettergi-ui
+git clone --recurse-submodules https://github.com/Moduloom/bettergi-web-ui.git
+cd bettergi-web-ui
 pnpm install --frozen-lockfile
 pnpm dev
 ~~~
