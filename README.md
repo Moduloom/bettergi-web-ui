@@ -19,4 +19,4 @@ pnpm dev
 
 本项目提供 Web 界面预览，游戏功能依赖本机 BetterGI。
 
-[原版 BetterGI](https://github.com/babalae/better-genshin-impact) · [Moduloom](https://github.com/Moduloom/moduloom) · [GPL v3](LICENSE) · [第三方素材](THIRD_PARTY.md)
+[原版 BetterGI](https://github.com/babalae/better-genshin-impact) · [Moduloom](https://github.com/Moduloom/moduloom) · [GPL v3](LICENSE) · [第三方素材](docs/third-party.md)
